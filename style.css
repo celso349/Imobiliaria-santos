@@ -1,14 +1,63 @@
 body{
-    background-color: #ffffff;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+.topo, .banner, .sobre, .serviços, .corretores, .contato{
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
 }
-img{
-    width: 250px;
-    height: 250px;
-    padding: 25px;
+.paragrafo{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+    margin: 10px auto;
+    width: 980px;
 }
-a{
-    text-decoration: underline;
-    color: #000000;
-    padding: 10px;   
+img{
+   width: 200px;
+   height: 200px;
+}
+/* estilização do topo da pagina*/
+.topo{
+    background-color: #afddfb;
+}
+.imagem-top{
+    width: 150px;
+    height: 150px;
+}
+.paragrafo-topo{
+    text-align: center;
+}
+.link-topo{
+    text-decoration: none;
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d;
+    font-size: 18px;
+    margin: 15px;
+}
+/* estilização do banner */
+.imagem-banner{
+    padding-top: 0px;
+    margin-top: 50px;
+    width: 1100px;
+    height: 500px;
+}
+/* estilização do sobre */
+.sobre h1{
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+.sobre h2{
+    color: #1c81c0;
+    margin-top: 0px;
+}
+.imagem-sobre{
+    width: 580px;
+    height: 300px;
+}
+.texto-azul{
+    color: #1c81c0;
+    font-weight: bold;
 }
