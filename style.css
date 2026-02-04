@@ -61,3 +61,70 @@ img{
     color: #1c81c0;
     font-weight: bold;
 }
+/* estilização do serviços*/
+.serviços{
+    background-color: #1c81c0;
+}
+.titulo-serviço{
+    color: white;
+    font-size: 38px;
+}
+.texto-amarelo{
+    color: yellow;
+    font-weight: bold;
+}
+.paragrafo-serviço{
+    color: white;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 33px;
+    margin: 10px auto;
+    width: 580px;
+}
+.lista-serviço{
+    color: white;
+    width: 140px;
+    margin: 50px auto;
+}
+.item-lista-serviço{
+    width: 40px;
+    font-size: 22px;
+    margin: 10px;
+}
+/*estilização corretores*/
+.titulo-corretores{
+    color: #1c81c0;   
+}
+.imagem-corretor{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+}
+/*estilização contato*/
+.contato{
+    background-color: #1c81c0;
+
+}
+.titulo-contato{
+    color: white;
+    font-weight: bold;
+    font-size: 33px;
+}
+.mapa-contato{
+    margin: 10px;
+}
+.paragrafo-contato{
+    background-color: #1d1d1d;
+    color: white;
+    margin: 20px auto;
+    width: 800px;
+}
+.link-contato{
+    background-color: rgb(250, 250, 1);
+    width: 200px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.link-email{
+    text-decoration: none;
+}
